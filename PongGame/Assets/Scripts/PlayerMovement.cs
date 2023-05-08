@@ -36,9 +36,4 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(0, 0);
         }
     }
-
-    private void move()
-    {
-        
-    }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Walls
   - Ball
+  - Point_Walls
   layers:
   - Default
   - TransparentFX

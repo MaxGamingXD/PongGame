@@ -34,7 +34,7 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.KeypadEnter))
+        if (Input.GetKey(KeyCode.KeypadEnter) || Input.GetKey(KeyCode.Space))
         {
             rb_Ball.velocity = new Vector2(left, 0);
         }
